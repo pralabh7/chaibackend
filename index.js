@@ -14,6 +14,9 @@ app.get('/instagram', (req,res)=>{
 app.get('/facebook', (req,res)=>{
     res.send('Pralabh Mishra ')
 })
+app.get('/youtube',(req,res)=>{
+    res.send(<h1>vibe with Pralabh</h1>)
+})
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
